@@ -1,0 +1,35 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "HTML/CSS based Curriculum Vitæ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erincar/cv.git"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "html",
+    "css"
+  ],
+  "author": "Erinc Argimak",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/erincar/cv/issues"
+  },
+  "homepage": "https://github.com/erincar/cv#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.2",
+    "tailwindcss": "^1.8.13",
+    "typescript": "^4.0.3"
+  }
+}

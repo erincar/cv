@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.page {
+    /* Placement */
+    @apply w-full h-screen;
+
+    /* Layout */
+    @apply flex items-center justify-center;
+}
+
+@media print {
+    @page {
+        @apply size-A4-portrait m-0;
+    }
+
+    html, body {
+        @apply w-full h-full m-0;
+   }
+
+    div.page {
+        @apply h-full;
+    }
+}
